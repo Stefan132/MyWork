@@ -1,0 +1,88 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    color: rgba(17, 14, 14, 0.89);
+}
+
+
+
+/****************************HEADER***********************/
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+section a {
+    color: rgba(143, 118, 118, 0.89);
+    margin-left: 20px;
+}
+
+section a:hover {
+    color: black;
+}
+
+
+
+/****************************HERO-SECTION***********************/
+
+#hero-section {
+    background-image: url(../imgs/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#paragraph {
+    background-color: rgb(241, 222, 184);    
+}
+
+
+
+
+
+
+/****************************INTRO-SECTION***********************/
+
+#intro-section {
+    background: #fcfbfa;
+}
+
+
+
+
+
+/****************************CONTACT-SECTION***********************/
+
+#contact-info-bg-1 {
+    background: rgb(46, 44, 44);
+}
+
+#contact-info-bg-2 {
+    background: rgb(46, 44, 44);
+}
+
+#contact-info-bg-3 {
+    background: rgb(46, 44, 44);
+}
+
+.line-1 {
+    height: 1px;
+    border:0;
+    border-bottom: 1px solid gray;
+}
+
+#info {
+    color: gray;
+}
+
+/****************************FOOTER-SECTION***********************/
+
+
+footer{
+    background: #312423;
+}

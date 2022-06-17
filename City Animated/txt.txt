@@ -1,0 +1,2 @@
+
+Un proiect simplu, pe care îl pot propune ca temă suplimentară, ar fi realizarea unei animații în care mai multe imagini se mișcă simultan, însă cu viteze diferite, pe aceeași axă.

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9393f3f23c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="mobile-menu">
+        <a id="close-btn" href="#">
+            <span class="fa-stack fa-1x">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fas fa-times fa-stack-1x"></i>
+
+            </span>
+        </a>
+        <div class="container">
+            <div class="row vh-100 align-items-center">
+                <div class="col-12 text-center">
+                    <nav>
+                        <div>
+                            <a class="mobile-menu-item text-decoration-none text-uppercase h3" href="#intro-section">About us</a>
+                        </div>
+                        <div class="my-3">
+                            <a class="mobile-menu-item text-decoration-none text-uppercase h3" href="#meniu-section">Products</a>
+                        </div>
+                        <div class="mb-3">
+                            <a class="mobile-menu-item text-decoration-none text-uppercase h3" href="#contact-info-section">Contact</a>
+                        </div>
+                        <div>
+                            <a class="mobile-menu-item text-decoration-none text-uppercase h3" href="#map-section">How to find us?</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <header id="header" class="p-3">
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+               <a href="#hero-section"><img id="header-logo" src="img/logo-1.svg" alt="coffe shop header logo" ></a> 
+            </div>
+            <div class="d-none d-md-block col-8 text-right">
+                <a class="text-decoration-none text-uppercase" href="#intro-section">About us</a>
+                <a class="text-decoration-none text-uppercase" href="#meniu-section">Products</a>
+                <a class="text-decoration-none text-uppercase" href="#contact-info-section">Contact</a>
+                <a class="text-decoration-none text-uppercase" href="#map-section">How to find us?</a>
+            </div>
+            <div class="d-md-none col-8 text-right">
+                <a id="menu-btn" href="#">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </header>
+    
+    <section id="hero-section" class="text-light">
+        <div class="container-fluid">
+            <div class="row vh-100 align-items-center pb-5">
+                <div class="col-12 text-center">
+                    <img id="hero-logo" src="svg/logo.svg" alt="coffe shop logo">
+                    <h1 class="display-3 font-weight-bold">THE HOME OF COFFEE</h1>
+                    <p class="lead">It's possible that you're craving coffee out of habit. It may be a key part of your morning routine or a basis for social interactions. Over the course of time, you may have become psychologically dependent on the ritual of coffee drinking.
+                         </p>
+                </div>
+            </div>
+        </div>
+
+        <a id="arrow-down" href="#intro-section">
+            <span class="fa-stack fa-2x">
+                <i class="far fa-circle fa-stack-2x"></i>
+                <i class="fas fa-chevron-down fa-stack-1x"></i>
+            </span>
+        </a>
+
+    </section>
+
+    <section id="intro-section" class="py-5">
+
+        <div class="container" class="py-5">
+            <div class="row justify-content-center">
+                <div class="col-10 col-xl-6 text-center py-5">
+                    <h1 class="font-weight-bold">THE BEST COFFEE SHOP</h1>
+                    <p>While caffeine addiction is possible, it's rare. Physical dependency or avoiding withdrawal symptoms may be at the root of your cravings instead.
+                         </p>
+                </div>
+                
+            </div>
+            <div class="row py-5">
+                <div class="col-sm-4 text-center">
+                    <img class="intro-icon img-fluid py-3" src="svg/icon-1.svg" alt="icon 1">
+                    <p class="h4 font-weight-bold">BEST BEANS</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="intro-icon img-fluid py-3" src="svg/icon-2.svg" alt="icon 2">
+                    <p class="h4 font-weight-bold">QUALITY MILK</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="intro-icon img-fluid py-3" src="svg/icon-3.svg" alt="icon 3">
+                    <p class="h4 font-weight-bold">PERFECT BLEND</p>
+                </div>
+                
+            </div>
+        </div>     
+    </section>
+
+    <section id="about-section">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-5 offset-1 align-self-center p-5">
+                    <h2>GREAT PLACE</h2>
+                    <p>Discover the unique aroma of THE HOME OF COFFEE, tea and chocolate in one place. Over 35 Tchibo coffee specialties, Alfredo Super Bar and Pure Columbia Supremo Origin served in the To Go system. Here at The Coffee Shop you can be convinced of the solutions we offer. Whether we are talking about the passion of serving an espresso or the pleasure of enjoying a cappuccino
+                         </p>
+                    <button class="btn btn-primary">FIND OUT MORE</button>
+                </div>
+                <div class="d-none d-md-block col-md-5 offset-1" id="about-bg-1">  
+
+                </div>
+            </div>
+            <div class="row align-items-center" id="about-bg-2">
+                <div class="d-none d-md-block col-md-6">
+
+                </div>
+                <div class="col-12 col-md-6 text-light p-5">
+                    <h2>FRESH BEANS</h2>
+                    <p>A coffee bean is a seed of the Coffea plant and the source for coffee. It is the pip inside the red or purple fruit often referred to as a cherry. Just like ordinary cherries, the coffee fruit is also a so-called stone fruit. Even though the coffee beans are not technically beans, they are referred to as such because of their resemblance to true beans. 
+                         </p>
+                    <button class="btn btn-primary">FIND OUT MORE</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="meniu-section">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1>SELECTION FROM OUR MENU</h1>
+                    <p class="text-muted lead">Whether you like your coffee black, with milk, or with special flavors like caramel or mocha, theres a Cold & Bold experience for you. Try our Cold Brew Coffee, Vanilla Bean Cold Brew Latte, Midnight Mocha Cold Brew Latte or new Caramel Cold Brew Latte.
+                        </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-9.png"  alt="coffee-1">
+                    <h2>BLACK CAKE</h2>
+                    <p class="lead my-3">Famous for its uniquely dense texture, dark color, rich and robust taste; this is the cake that takes the cake.
+                        </p>
+                    <p class="h3">4€</p>
+                </div>
+                    
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-2.png" alt="coffee-2">
+                    <h2 class="my-3">BLACK COFFEE</h2>
+                    <p class="lead my-3">Black coffee can be brewed so many different ways to each of your liking. Black Coffee made from fresh coffee beans and made using instant coffee powder taste very different, still it is refreshing.
+                        </p>
+                    <p class="h3">6€</p>
+                
+                </div>
+
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-3.png" alt="coffee-3">
+                    <h2 class="my-3">ESPRESSO</h2>
+                    <p class="lead my-3">Espresso is generally thicker than coffee brewed by other methods, with a viscosity of warm honey.This is due to the higher concentration of suspended and dissolved solids, and the crema on top (a foam with a creamy consistency).
+                        </p>
+                    <p class="h3">6€</p>
+                
+                </div>
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-4.png" alt="coffee-4">
+                    <h2 class="my-3">LATTE</h2>
+                    <p class="lead my-3">Caffè latte often shortened to just latte in English, is a coffee drink of Italian origin made with espresso and steamed milk. Variants include the chocolate-flavored mocha or replacing the coffee with another drink base such as masala chai (spiced Indian tea), mate, matcha, turmeric or rooibos; other types of milk, such as soy milk or almond milk, are also used. 
+                        </p>
+                    <p class="h3">6€</p>
+                
+                </div>
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-5.png" alt="coffee-5">
+                    <h2 class="my-3">MACARONS</h2>
+                    <p class="lead my-3">A macaron or French macaroon  is a sweet meringue-based confection made with egg white, icing sugar, granulated sugar, almond meal, and food colouring.  
+                        </p>
+                    <p class="h3">6€</p>
+                
+                </div>
+                <div class="col-sm-6 col-md-4 p-5 text-center">
+                    <img class="img-fluid" src="img/coffee-item-6.png" alt="coffee-6">
+                    <h2 class="my-3">MACCHIATO</h2>
+                    <p class="lead my-3">Caffè macchiato sometimes called espresso macchiato,  is an espresso coffee drink with a small amount of milk, usually foamed. In Italian, macchiato means "stained" or "spotted" so the literal translation of caffè macchiato is "stained” or “marked coffee.” 
+                        </p>
+                    <p class="h3">6€</p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-info-section">
+
+        <div class="container-fluid text-light">
+            <div class="row" id="contact-info-bg-1">
+                <div class="col-md-5 offset-md-1 p-5">
+                    <h2>YOU ARE WELCOME</h2>
+                    <p>COME ON IN!</p>
+                    <br>
+                    <h4>WEKKDAYS</h4>
+                    <p>08PM-12AM</p>
+                    <br>
+                    <h4>WEEKENDS</h4>
+                    <p>12PM-02AM</p>
+                </div>
+                <div class="col-md-6 p-5" id="contact-info-bg-2">
+                    <h2>CONTACT</h2>
+                    <br>
+                    <h4>PHONE</h4>
+                    <p>(000) 111 222 222</p>
+                    <br>
+                    <h4>MAIL</h4>
+                    <p>coffe.shop@gmail.com</p>
+                    <br>
+                    <h4>ADDRESS</h4>
+                    <p>54 DN, doula street NY, NEW YORK</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="map-section">
+        <div id="map">
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid text-light py-3">
+            <div class="row">
+                <div class="col-md-5 offset-md-1 align-self-center">
+                    Coffe shop | © ALL rights reserved
+                </div>
+                <div class="col-md-5 text-right" id="social-icons">
+                    <a href="https://www.facebook.com/" class="mx-2">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#" class="mx-3">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                    <a href="#" class="mx-3">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="#" class="mx-2">
+                        <i class="fas fa-phone-square-alt"></i>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/leaflet.js"></script>
+   
+
+    <script>
+        window.addEventListener("load", function() {
+
+            /*let menuBtn = document.getElementById("menu-btn");
+            let mobileMenu = document.getElementById("mobile-menu");
+            let closeBtn = document.getElementById("close-btn");
+
+            menuBtn.addEventListener("click", function(){
+                if(mobileMenu.style.display = "none"){
+                mobileMenu.style.display = "block";
+                }
+            });
+
+            closeBtn.addEventListener("click", function(){
+                if(mobileMenu.style.display ="block"){
+                mobileMenu.style.display = "none";
+                }
+            });
+
+            let mobileMenuItems = document.getElementsByClassName("mobile-menu-item");
+
+            for(let i = 0; i < mobileMenuItems.length; i++) {
+                mobileMenuItems[i].addEventListener("click", function(){
+                    mobileMenu.style.display = "none";
+                });
+            }*/      // COD JAVASCRIPT
+
+
+
+            $("#menu-btn, #close-btn").click(function(){
+                $("#mobile-menu").toggle();
+            });   // COD JQUERY
+
+
+
+
+            //for header
+
+            /*let heroSection = document.getElementById("hero-section");
+            let heroSectionHeight =heroSection.clientHeight;
+
+            let header = document.getElementById("header");
+
+            document.addEventListener("scroll", function(){
+
+                if(document.documentElement.scrollTop > heroSectionHeight) {
+                    if(!header.classList.contains("solid-header")){
+                        header.classList.add("solid-header");
+                    }
+                } else {
+                    if(header.classList.contains("solid-header")){
+                        header.classList.remove("solid-header");
+                    }
+                }
+            });*/   // COD JAVASCRIPT
+
+
+           $(document).scroll(function () {
+                
+                let header = $("#header");
+
+                if($(this).scrollTop() > $("#hero-section").height()){
+
+                    if(!header.hasClass("solid-header")){
+                        header.addClass("solid-header");
+                    }
+                } else {
+                    if(header.hasClass("solid-header")){
+                        header.removeClass("solid-header");
+                    }
+                }
+            }); 
+
+
+            var myMap = L.map('map', {
+                center: [40.741770, -73.983090],
+                zoom: 17
+            });
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+             {
+                 attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+             }).addTo(myMap);
+
+            var myIcon = L.icon({
+                iconUrl: 'img/map-icon.png'
+            });
+
+            var marker = L.marker([40.741770, -73.983090], {
+                icon: myIcon
+            }).addTo(myMap);
+
+            marker.bindPopup("Nice to meet you!");
+
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>
